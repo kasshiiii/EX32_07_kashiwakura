@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract
 {
-    class RightTriangle : Surface
+    class RightTriangle : Surface //直角三角形
     {
         readonly public float width;
         readonly public float height;

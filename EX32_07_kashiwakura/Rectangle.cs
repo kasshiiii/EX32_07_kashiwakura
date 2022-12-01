@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract
 {
-    class Rectangle : Surface
+    class Rectangle : Surface //長方形
     {
         readonly public float width;
         readonly public float height;

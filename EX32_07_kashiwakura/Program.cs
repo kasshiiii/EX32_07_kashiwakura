@@ -19,7 +19,7 @@ namespace EX32
                 Console.WriteLine($"Surfaceの面積は{surfaces[i].GetSurface()}");
                 Console.WriteLine($"Surfaceの周囲長は{surfaces[i].GetCircumference()}");
                 surfaces[i].GetBounds(out height, out width);
-               Console.WriteLine($"Surfaceが入る長方形の長さは縦{height} 横{width}");
+                Console.WriteLine($"Surfaceが入る長方形の長さは縦{height} 横{width}\n");
             }
         }
     }

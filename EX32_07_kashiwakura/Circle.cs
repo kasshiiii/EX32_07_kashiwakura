@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract
 {
-    class Circle : Surface
+    class Circle : Surface //円
     {
         readonly public float radius;
         public Circle(float radius = 0)
